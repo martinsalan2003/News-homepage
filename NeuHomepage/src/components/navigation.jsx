@@ -23,6 +23,7 @@ export default function Navigation() {
                 <span></span>
                 <span></span>
             </div>
+            {/* navegação  */}
             <div className={`navigation-option ${menuOpen ? 'show' : ''}`}>
                 <ul>
                     <li>Home</li>
