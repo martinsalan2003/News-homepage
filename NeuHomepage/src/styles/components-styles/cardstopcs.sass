@@ -1,2 +1,44 @@
+@import '../global-styles/variables'
+
+
+
 #topcs
-    border: 1px solid black
+    padding: 0 8em
+    display: flex
+.Card
+    height: 17vh
+    display: flex
+    gap: 15px
+    
+    .card-info
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        
+        h1
+            color: $corhovertext
+            
+        h2 
+            font-size: 20px
+            color: $cortexttitulos
+        p
+            font-size: 14px
+            color: $corparagrafos
+
+
+
+// dispositivo moveis 
+@media (max-width: 768px)
+#topcs
+    flex-direction: column
+    justify-content: space-between
+    padding: 15px
+    gap: 15px
+
+    .Card
+        
+
+        .container-img
+            height: 100%
+            img
+                height: 100%
