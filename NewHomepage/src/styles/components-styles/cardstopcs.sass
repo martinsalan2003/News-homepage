@@ -6,10 +6,13 @@
     padding: 0 8em
     display: flex
 .Card
-    height: 17vh
+    height: 100px
     display: flex
     gap: 15px
     
+    img
+        width: 100%
+        height: 100%
     .card-info
         display: flex
         flex-direction: column
@@ -26,18 +29,23 @@
             color: $corparagrafos
 
 
-
-// dispositivo moveis 
+    // dispositivo moveis 
 @media (max-width: 768px)
-#topcs
-    justify-content: space-between
-    padding: 25px
-    gap: 25px
-
-    .Card
-
-
-        .container-img
-            height: 100%
-            img
+    #topcs
+        flex-direction: column
+        justify-content: space-between
+        padding: 15px
+        gap: 35px
+        .Card
+            height: 6.5em
+            display: flex
+            align-items: center
+            .card-info
+                gap: 6px
+            .container-img
                 height: 100%
+                width: 30% 
+                img
+                    height: 100%
+                    width: 100% 
+                    object-fit: cover
