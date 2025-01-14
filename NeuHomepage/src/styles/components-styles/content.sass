@@ -1,25 +1,101 @@
+@import '../global-styles/variables'
+    
 #container-content
-   border: 1px solid black
-   padding: 0 8em
+    margin-bottom: 50px
+    padding: 0 8.5em
 
 .sections-container
-    border: 1px solid red
     display: flex
-    gap: 15px
+    gap: 25px
 
     .container-news-1
-        border: 1px solid yellow
         .banner
-            height: 200px
-            border: 1px sold orange
+            height: 250px
+            .container-img
+                height: 250px
+                img
+                    height: 100%
+                    width: 100%
+
         .new-1
+            margin-top: 35px
             display: flex
-            border: 1px solid blue
 
             .title
-                border: 1px solid pink
+                width: 50%
+                h1
+                    font-size: 3em
+                    line-height: 1em
             .content-news
-                border: 1px solid pink
+                display: flex
+                flex-direction: column
+                justify-content: space-between
+                width: 50%
+                font-size: 15px
+                font-weight: 300
+                color: $corparagrafos
+
+                .more
+                    cursor: pointer
+                    border: none
+                    outline: none
+                    height: 35px
+                    width: 150px
+                    font-weight: 600
+                    color: $cortexttitulos
+                    letter-spacing: 3px
+                    background-color: $corhovertext
+                .more:hover
+                    transition: color 0.3s ease
+                    background-color: $cortexttitulos
+                    color: $corcontainer
+                    
 
     .container-news-2
-        border: 1px solid yellow
+
+        padding: 1.5em
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        background-color: $cortexttitulos
+
+        h1
+            font-size: 2em
+            color: #DDA853
+        hr
+            color: #fff
+        h2
+            font-size:20px
+            color: #fff
+        h2:hover
+            cursor: pointer
+            color: #DDA853
+        p
+            color: $corcontainer
+            margin-top: 10px
+            font-size: 15px
+
+
+//exibição em dispositivos mobile
+@media ( max-width: 768px )
+    #container-content
+        padding: 15px
+        .sections-container
+            flex-direction: column
+            gap: 70px
+            .container-news-1
+                flex-direction: column
+                .new-1
+                    display: flex
+                    flex-direction: column
+                    gap: 15px
+                    .title
+                        width: 100%
+                    .content-news
+                        font-size: 15px
+                        gap: 15px
+                        width: 100%
+            
+            .container-news-2
+                height: 70vh
+    

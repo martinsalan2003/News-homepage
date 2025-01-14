@@ -10,7 +10,7 @@ export default function Content (){
                 
             <div className='banner'>
                 <div className="container-img">
-                    {/* <img src={Banner} alt="" /> */}
+                     <img src={Banner} alt="" /> 
                 </div>
             </div>
 
@@ -21,7 +21,7 @@ export default function Content (){
                 
                 <div className="content-news">
                     <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
-                    <button type="button">READ MORE</button>
+                    <button type="button" className='more'>READ MORE</button>
                 </div>
             </div>
 
@@ -29,7 +29,7 @@ export default function Content (){
 
 
             <div className="container-news-2">
-                <h1>News</h1>
+                <h1>New</h1>
                 <div className="content-new-1">
                     <h2>Hydrogen VS Electric Cars</h2>
                     <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
