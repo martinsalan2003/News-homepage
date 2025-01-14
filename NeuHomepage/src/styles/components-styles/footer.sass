@@ -1,2 +1,61 @@
+@import '../global-styles/variables'
+
 #footer
-    border: 1px solid orange
+    padding: 40px 8.5em
+    background-color: $cortexttitulos
+    border: 1px solid orange   
+    display: flex
+    justify-content: space-between
+
+    .principal
+        color: #fff
+        padding: 1em
+        display: flex
+        flex-direction: column
+        border: 1px solid red
+        width: 25%
+        gap: 15px
+        font-size: 12px
+
+        .icones
+            display: flex
+            justify-content: center
+            gap: 15px
+            height: 35px
+            
+            img
+                border-radius: 50%
+                background-color: #fff
+                padding: 5px
+                height: 100%
+    
+    // estilo global dos cards
+    .global-card
+        h4
+            text-align: center
+            color: #DDA853
+            padding: 1em
+        ul
+            list-style: none
+            display: flex
+            flex-direction: column
+            border: 1px solid red
+            gap: 5px
+            
+            a
+                text-decoration: none
+                color: #fff
+                font-size: 12px  
+            a:hover
+                color: #DDA853
+                text-decoration: underline
+                text-decoration-thickness: 2px
+                text-underline-offset: 3px
+    .footer-projetos
+        
+        border: 1px solid orange
+    .footer-competencias
+    
+        border: 1px solid green
+    .footer-contatos
+        border: 1px solid pink
