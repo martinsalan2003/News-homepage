@@ -6,7 +6,7 @@ export default function Footer(){
         <footer id='footer'>
             <div className="principal">
                 <div className="img">
-                    <h1>img</h1>
+                    <img src="https://avatars.githubusercontent.com/u/112531053?v=4" alt="" />
                 </div>
                 <hr />
                 <p>
@@ -22,36 +22,36 @@ export default function Footer(){
                 </div>
             </div>
             <div class="footer-projetos global-card">
-                <h4>Projetos</h4>
+                <h4>Skills</h4>
                 <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Customers</a></li>
-                    <li><a href="#">Careers</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">Knowledge Base</a></li>
-                    <li><a href="#">Demo</a></li>
+                    <li>Lógica de Programação
+                    </li>
+                    <li>Conhecimento em programação.</li>
+                    <li>Versionamento de Código</li>
+                    <li>Depuração e resolução de problemas</li>
+                    <li>Aprendizado Contínuo</li>
+                    <li>Comunicação e Trabalho em Equipe</li>
                 </ul>
             </div>
             <div class="footer-competencias global-card">
                 <h4>Projetos</h4>
                 <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Customers</a></li>
-                    <li><a href="#">Careers</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">Knowledge Base</a></li>
-                    <li><a href="#">Demo</a></li>
+                    <li><a href="https://github.com/martinsalan2003/cart-o-de-visualiza--o-de-estat-sticas">Cartão de vendas</a></li>
+                    <li><a href="https://github.com/martinsalan2003/Calculadora-de-IMC">Calculadora de imc</a></li>
+                    <li><a href="https://github.com/martinsalan2003/PortifolioVictoria">Portifolio Victoria</a></li>
+                    <li><a href="https://github.com/martinsalan2003/Sobre-o-Alan">Sobre mim</a></li>
                 </ul>
             </div>
             <div class="footer-contatos global-card">
                 <h4>Contatos</h4>
                 <ul>
                     <li>Tel: (11) 992946537</li>
-                    <li>Email: alanmartinsferreria59@gamil.com</li>
-                    <li><a href="https://github.com/martinsalan2003">Github: AlanMartins00 </a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">Knowledge Base</a></li>
-                    <li><a href="#">Demo</a></li>
+                    <li>Email: alanmartinsferreira59@gmail.com</li>
+                    <li><a href="https://github.com/martinsalan2003">Github: 
+                    AlanMartins00 </a></li>
+                    
+                    
+                    
                 </ul>
             </div>
 
