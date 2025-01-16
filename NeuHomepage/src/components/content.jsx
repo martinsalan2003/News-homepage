@@ -10,7 +10,7 @@ export default function Content (){
                 
             <div className='banner'>
                 <div className="container-img">
-                     <img src={Banner} alt="" /> 
+                     <img className='imagem-desk' src={Banner} alt="" /> 
                 </div>
             </div>
 

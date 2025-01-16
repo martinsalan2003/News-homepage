@@ -63,6 +63,8 @@
                 text-decoration: underline
                 text-decoration-thickness: 2px
                 text-underline-offset: 3px
+    .footer-exeto
+            margin:  3em 0
 
     // para intermediarios
     @media (max-width: 1024px)
@@ -71,32 +73,24 @@
         flex-direction: column
         align-items: center
 
+        .principal
+            .img
+                display: flex
+                justify-content: center
+                align-items: center
+                height: 60px
+                img 
+                    height: 100%
+
         .principal,
         .global-card 
             width: 80%
 
-    // para dispositivos movel
-    @media (max-width: 768px)
-        #footer 
-            padding: 20px 2em
+        .global-card
+            padding: 0
+            margin-top: 0
+            h4
+                padding: 1em 0
+                text-align: center
 
-            .principal 
-                font-size: 9px
-
-                .img 
-                    height: 60px
-
-                    img 
-                        height: 100%
-
-                .icones 
-                    gap: 10px
-                    img 
-                        height: 25px
-            .global-card 
-                h4 
-                    font-size: 10px
-
-                    ul li,
-                    ul a 
-                        font-size: 10px
+       

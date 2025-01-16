@@ -21,19 +21,18 @@ export default function Footer(){
                     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="icone-js" />
                 </div>
             </div>
-            <div class="footer-projetos global-card">
+            <div class="footer-exeto global-card">
                 <h4>Skills</h4>
                 <ul>
                     <li>Lógica de Programação
                     </li>
-                    <li>Conhecimento em programação.</li>
                     <li>Versionamento de Código</li>
                     <li>Depuração e resolução de problemas</li>
                     <li>Aprendizado Contínuo</li>
                     <li>Comunicação e Trabalho em Equipe</li>
                 </ul>
             </div>
-            <div class="footer-competencias global-card">
+            <div class="footer-exeto global-card">
                 <h4>Projetos</h4>
                 <ul>
                     <li><a href="https://github.com/martinsalan2003/cart-o-de-visualiza--o-de-estat-sticas">Cartão de vendas</a></li>
@@ -42,7 +41,7 @@ export default function Footer(){
                     <li><a href="https://github.com/martinsalan2003/Sobre-o-Alan">Sobre mim</a></li>
                 </ul>
             </div>
-            <div class="footer-contatos global-card">
+            <div class="footer-exeto global-card">
                 <h4>Contatos</h4>
                 <ul>
                     <li>Tel: (11) 992946537</li>
