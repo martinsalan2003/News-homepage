@@ -35,10 +35,10 @@ export default function Footer(){
             <div class="footer-exeto global-card">
                 <h4>Projetos</h4>
                 <ul>
-                    <li><a href="https://github.com/martinsalan2003/cart-o-de-visualiza--o-de-estat-sticas">Cartão de vendas</a></li>
-                    <li><a href="https://github.com/martinsalan2003/Calculadora-de-IMC">Calculadora de imc</a></li>
-                    <li><a href="https://github.com/martinsalan2003/PortifolioVictoria">Portifolio Victoria</a></li>
-                    <li><a href="https://github.com/martinsalan2003/Sobre-o-Alan">Sobre mim</a></li>
+                    <li><a  target='_blank' href="https://github.com/martinsalan2003/cart-o-de-visualiza--o-de-estat-sticas">Cartão de vendas</a></li>
+                    <li><a target='_blank' href="https://github.com/martinsalan2003/Calculadora-de-IMC">Calculadora de imc</a></li>
+                    <li><a target='_blank' href="https://github.com/martinsalan2003/PortifolioVictoria">Portifolio Victoria</a></li>
+                    <li><a target='_blank' href="https://github.com/martinsalan2003/Sobre-o-Alan">Sobre mim</a></li>
                 </ul>
             </div>
             <div class="footer-exeto global-card">
@@ -46,7 +46,7 @@ export default function Footer(){
                 <ul>
                     <li>Tel: (11) 992946537</li>
                     <li>Email: alanmartinsferreira59@gmail.com</li>
-                    <li><a href="https://github.com/martinsalan2003">Github: 
+                    <li><a target='_blank' href="https://github.com/martinsalan2003">Github: 
                     AlanMartins00 </a></li>
                     
                     
